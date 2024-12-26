@@ -1,0 +1,79 @@
+.sidebar{
+    min-height: 100vh;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(214, 214, 214);
+    padding: 25px;
+  
+  }
+
+  .sidebar menu{
+    display: block;
+    margin-left: 20px;
+    cursor: pointer;
+  }
+
+  .new-chat{
+    margin-top: 50px;
+    display: inline-flex;
+    /* flex-direction: column; */
+    align-items: center;
+    gap: 10px;
+    padding: 10px 15px;
+    background-color: #e6eaf1;
+    border-radius: 50px;
+    font-size:14px;
+    cursor: pointer;
+    color: grey;
+
+  }
+
+  .recent{
+    display: flex;
+    flex-direction: column;
+    animation: fadeIn 1.5s;
+  }
+
+  .recent-title{
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+
+  .recent-entry p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    padding-right: 45px;
+    gap: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+    color: #282828;
+
+  }
+
+  .recent-entry:hover{
+    background-color: #e2e6eb;
+    border-radius: 50px;
+  }
+
+  .bottom{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .bottom-item{
+    color: grey;
+    padding: 10px;
+     display: flex; 
+     gap: 15px;
+  }
+
+
+  @media (max-width:600px) {
+    .sidebar{
+      display: none;
+    }
+  }
+ 
